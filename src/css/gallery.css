@@ -16,3 +16,30 @@
   height: 100%;
   object-fit: cover;
 }
+
+.sl-overlay {
+  background-color: #2e2f42cc;
+}
+
+.sl-wrapper .sl-close {
+  margin-top: -16px;
+  margin-right: -16px;
+  height: 32px;
+  width: 32px;
+  color: #fff;
+}
+
+.sl-wrapper .sl-counter {
+  color: #fff;
+}
+
+.sl-wrapper .sl-navigation button {
+  right: 20px;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.sl-wrapper .sl-image .sl-caption {
+  color: #fff;
+  background: #2e2f42cc;
+}
