@@ -4,16 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page 3</title>
-    <script type="module" crossorigin src="/goit-js-hw-09/assets/modulepreload-polyfill-Dezn_h7o.js"></script>
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/styles-C5EVxI_3.css">
+    <title>Form</title>
+    <script type="module" crossorigin src="/goit-js-hw-09/2-form.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/modulepreload-polyfill-Dezn_h7o.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/styles-hKrK_BCI.css">
   </head>
   <body>
     <main>
       <div class="container">
-        <h1 class="main-title"></h1>
         <a class="back-link" href="./index.html">Go back</a>
 
+        <div class="form-container">
+          <form class="feedback-form" autocomplete="off">
+            <label>
+              Email
+              <input class="email" type="email" name="email" autofocus />
+            </label>
+            <label>
+              Message
+              <textarea class="message" name="message" rows="8"></textarea>
+            </label>
+            <button class="submit-btn" type="submit">Submit</button>
+          </form>
+        </div>
       </div>
     </main>
 
